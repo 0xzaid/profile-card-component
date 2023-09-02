@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --clr-cyan: hsl(185, 75%, 39%);
+  --clr-dark-blue: hsl(229, 23%, 23%);
+  --clr-grayish-blue: hsl(227, 10%, 46%);
+  --clr-dark-gray: hsl(0, 0%, 59%);
+
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.card {
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.bg-pattern-card {
+  object-fit: cover;
+  width: 400px;
+  height: 170px;
+  /* border-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+.banner {
+  height: 35%;
+}
+
+.profile-img {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: -40px;
+}
+
+
+.card-info {
+  height: 65%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+}
+
+.user-name {
+  font-weight: 700;
+}
+
+.user-location {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.number {
+  font-size: 24px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.label {
+  font-size: 16px;
+  /* Adjust the font size as needed */
+  color: #888;
+  /* You can change the color to your preference */
+}
